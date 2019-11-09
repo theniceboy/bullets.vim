@@ -493,11 +493,11 @@ augroup TextBulletsMappings
 
     " Text Objects -------------------------------------------- {{{
     " inner bullet (just the text)
-    call s:add_local_mapping('onoremap', 'ib', ':SelectBulletText<cr>')
+    call s:add_local_mapping('onoremap', 'kb', ':SelectBulletText<cr>')
     " a bullet including the bullet markup
     call s:add_local_mapping('onoremap', 'ab', ':SelectBullet<cr>')
     " inside a checkbox
-    call s:add_local_mapping('onoremap', 'ic', ':SelectCheckboxInside<cr>')
+    call s:add_local_mapping('onoremap', 'kc', ':SelectCheckboxInside<cr>')
     " a checkbox
     call s:add_local_mapping('onoremap', 'ac', ':SelectCheckbox<cr>')
     " Text Objects -------------------------------------------- }}}

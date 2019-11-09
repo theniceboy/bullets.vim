@@ -223,7 +223,7 @@ ab          "a bullet block", select a bullet block, including the bullet
             leader.
 
                                             *bullets-ib*
-ib          "inner bullet block", select a bullet block, excluding the bullet
+kb          "inner bullet block", select a bullet block, excluding the bullet
             leader.
 
                                             *bullets-ac*
@@ -231,7 +231,7 @@ ac          "a checkbox block", select a checkbox block, including the '[' and
             ']'.
 
                                             *bullets-ic*
-ic          "inner checkbox block", select a checkbox block, excluding the '['
+kc          "inner checkbox block", select a checkbox block, excluding the '['
             and ']'.
 
 
